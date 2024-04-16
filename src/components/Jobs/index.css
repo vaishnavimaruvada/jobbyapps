@@ -1,0 +1,128 @@
+.jobs-bg-container {
+  display: flex;
+  flex-direction: row;
+  padding: 50px;
+  background-color: black;
+  overflow: auto;
+}
+
+@media screen and (max-width: 767px) {
+  .jobs-bg-container {
+    flex-direction: column;
+    padding: 40px;
+    align-items: center;
+  }
+}
+
+.profile-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  border-radius: 8px;
+  padding: 10px;
+  /* overflow: auto; */
+  width: 200px;
+}
+
+@media screen and (max-width: 767px) {
+  .profile-container {
+    width: 200px;
+    margin: 10px;
+  }
+}
+
+.profile-filters-container {
+  width: 300px;
+  margin-right: 50px;
+}
+
+@media screen and (max-width: 767px) {
+  .profile-filters-container {
+    width: 100%;
+    margin: 10px;
+  }
+}
+
+.filter-heading {
+  color: white;
+  font-size: 'Roboto';
+  font-size: 15px;
+}
+.line-break {
+  height: 0.5px;
+  background-color: white;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.filter-label {
+  color: white;
+}
+
+.search-container {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid white;
+  margin-left: 40px;
+  width: 50%;
+}
+
+@media screen and (max-width: 768px) {
+  .search-container {
+    display: none;
+  }
+}
+
+.search-container-for-sm {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid white;
+  /* margin: 4px; */
+  width: 50%;
+  background-color: transparent;
+}
+
+@media screen and (min-width: 768px) {
+  .search-container-for-sm {
+    display: none;
+  }
+}
+
+.search-el {
+  background-color: black;
+  border: 0px;
+  width: 90%;
+  margin: 5px;
+  color: white;
+  outline: none;
+}
+
+@media screen and (max-width: 768px) {
+  .search-el {
+    background-color: black;
+    border: 0px;
+    width: 90%;
+    margin: 0px;
+  }
+}
+
+.search-icon-container {
+  background-color: rgb(31, 30, 30);
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-img {
+  height: 50px;
+  width: 50px;
+}
+
+.name-el {
+  font-family: 'roboto';
+  font-size: 25px;
+}
+
+.short-bio {
+  font-family: 'roboto';
+  font-size: 15px;
+}
